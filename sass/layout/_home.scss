@@ -1,7 +1,15 @@
+.background{
+    background-color: $color-light-cyan;
+    position: absolute;
+    z-index: -200;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header{
     width: 90vw;
     margin: 0 auto;
-    margin-top: 5rem;
+    padding: 5rem 5rem;
 
 
     &-nav{
