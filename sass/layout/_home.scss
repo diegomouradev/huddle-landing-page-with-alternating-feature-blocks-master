@@ -1,0 +1,128 @@
+.header{
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+
+    &-nav{
+        margin: 0 auto;
+        align-content: center;
+
+        @include clearfix;
+
+        &__logo{
+            float: left;
+            justify-content: center;
+        }
+
+        &__btn{
+            float: right;
+        }
+    }
+
+    &-cta{
+        margin: 0 auto;
+        margin-top: 8rem;
+        display: flex;
+
+        &__text-box {
+            max-width: 38vw;
+            margin-right: 10.4rem;
+            margin-top: 6rem;
+        }
+
+        &__illustration {
+            max-width: 55vw;
+        }
+    }
+
+}
+
+.text-box{
+
+    &__btn{
+        float: left;
+    }
+}
+
+
+.card-section{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.fotter-cta{
+    width: 50vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-nav {
+    background-color: $color-dark-cyan;
+    padding: 10rem 5rem;
+    margin-top: 30rem;
+    position: relative;
+
+    &__column{
+        list-style-type: none;
+        margin: 0 auto;
+
+        &--item-icon{
+            display: inline;
+            margin-right: 3rem;
+        }
+
+        &--item{
+            margin-bottom: 2rem;
+            padding-left: 3rem;
+        }
+    }
+
+    &__logo{
+        margin-bottom: 5rem;
+        margin-top: 10rem;
+        fill: #fff;
+    }
+}
+
+.footer-cta{
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    translate: -50%;
+}
+
+.contact{
+
+    &__address{
+        margin-bottom: 2rem;
+
+        &--icon{
+            float: left;
+            margin-right: 3rem;
+            margin-top: 1rem;
+        }
+    
+        &--text{
+            display: inline-block;
+            width: 30rem;
+        }
+    }
+    
+    &__phone,
+    &__email{
+        margin-bottom: 2rem;
+        
+
+        &--icon{
+            display: inline-block;
+            margin-right: 3rem;
+        }    
+    }
+}
+
+.copyright{
+    float: right;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+}

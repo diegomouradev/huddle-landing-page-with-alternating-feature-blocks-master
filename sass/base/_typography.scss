@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+
+.text-box{
+
+    &__primary-heading{
+        max-width: 70%;
+        font-family: "Poppins";
+        font-size: 3.2rem;
+        line-height: 5rem;
+    }
+
+    &__primary-paragraph{
+        margin-bottom: 5rem;
+    }
+
+}
+
+.primary-heading{
+    color: #000;
+    margin: 0 0 5rem;
+
+    &--cta{
+        color: #000;
+        margin: 0 0 5rem;
+    }
+}
+
+.paragraph-secondary{
+    color: $color-greish-blue;
+}
+
+.footer-nav {
+    font-size: 1.6rem;
+    color: $color-light-cyan;
+}

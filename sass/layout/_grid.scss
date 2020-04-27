@@ -1,0 +1,23 @@
+.row{
+    max-width: 144rem;
+    margin: 0 auto;
+
+        @include clearfix;
+
+    .column-2-of-5{
+        width: calc(2*(calc((100% - 20rem) /5)) + 5rem);
+        float: left;
+    }
+
+
+    .column-1-of-5{
+        width: calc((100% - 20rem) /5);
+        margin: 0 auto;
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: 5rem;
+        }
+    }
+    
+}

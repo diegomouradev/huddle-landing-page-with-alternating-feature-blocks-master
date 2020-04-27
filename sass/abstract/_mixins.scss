@@ -1,0 +1,14 @@
+@mixin clearfix {
+    &::after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin card {
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 3rem rgba($color-black, .1);
+    padding: 5rem 5rem;
+    margin-bottom: 5rem;
+}

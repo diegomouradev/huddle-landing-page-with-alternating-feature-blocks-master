@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    height: 40rem;
+    margin: 0 auto;
+
+    @include card;
+
+    &__text-box{
+        padding: 10rem 10rem;
+        flex-grow: 1;
+    }
+
+    &__illustration{
+        max-width: 40rem;
+        padding: 2rem;
+    }
+
+    &:nth-child(1){
+        margin-top: 20rem;
+    }
+}
+
+.card-cta{
+    background-color: #FFF;
+    width: 50vw;
+    height: 15rem;
+    margin: 0 auto;
+    text-align: center;
+    @include card;
+}
