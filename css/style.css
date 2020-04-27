@@ -93,7 +93,7 @@ body {
     padding: 10rem 10rem;
     flex-grow: 1; }
   .card__illustration {
-    max-width: 40rem;
+    max-width: 30vw;
     padding: 2rem; }
   .card:nth-child(1) {
     margin-top: 20rem; }
@@ -134,7 +134,7 @@ body {
       margin-right: 10.4rem;
       margin-top: 6rem; }
     .header-cta__illustration {
-      max-width: 55vw; }
+      max-width: 50vw; }
 
 .text-box__btn {
   float: left; }
